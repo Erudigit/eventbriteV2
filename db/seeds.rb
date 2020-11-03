@@ -16,4 +16,5 @@ users = Array.new
 10.times do |i|
   user = User.create(first_name: Faker::Name.name, last_name: Faker::Name.name, email: "usereventbrite#{i}@yopmail.com", encrypted_password: Faker::Lorem.word, description: "Voici une courte description au pif ahahah",  )
   users << user
+  puts "Utilisateur créé"
 end
