@@ -4,6 +4,4 @@ Rails.application.routes.draw do
   root to: 'events#index'
   resources :events, only: [:index, :new, :create]
   resources :users
-
-  default_url_options :host => "dev.yourhost.com"
 end
