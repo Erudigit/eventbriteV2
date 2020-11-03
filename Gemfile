@@ -72,3 +72,5 @@ gem 'bcrypt'
 gem 'letter_opener'
 
 gem 'dotenv-rails'
+
+gem 'devise'
